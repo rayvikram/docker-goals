@@ -40,4 +40,11 @@
 > name:tag combination is called tag a image
 - 
 
-### 
+### How to push this image to docker-hub
+1. Signup on docker hub
+2. Create a Repository
+3. The repo name will be "vikramray2011/goal" so the image locally be also be name as same
+4. So use `docker tag goal:latest vikramray2011/goal:latest` , it will create a copy with the name given
+5. if not logged in on docker -> `docker login`
+6. docker push vikramray2011/goal:latest
+7. Refresh the page and your docker image is on cloud.
