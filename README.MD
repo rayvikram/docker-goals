@@ -38,6 +38,8 @@
 - --name -> container
 - docker build -t <name:tag> .
 > name:tag combination is called tag a image
+- cat ~/.docker/config.json
+> to view if logged in or not. It will show the oauth token
 - 
 
 ### How to push this image to docker-hub
